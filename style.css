@@ -1,0 +1,19 @@
+h3
+{
+    font-style: 25px !important;
+}
+
+.btn-success:hover
+{
+background-color: red;
+}
+
+canvas
+{
+    animation: noseAnimation 4s infinite;
+}
+
+@keyframes noseAnimation{
+from {box-shadow: 1px 1px 38px rebeccapurple;}
+to {box-shadow: 1px 1px 38px teal;}
+}
